@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ola" id="midiv">
+    <label for="">Identificacion:</label>
+    <input type="number" id="ident"><br>
+    <br>
+    <label for="">Nombre:</label>
+    <input type="text" id="nom"><br>
+    <br>
+    <label for="">Nota 1:</label>
+    <input type="number" id="nota1" ><br>
+    <br>
+    <label for="">Nota 2:</label>
+    <input type="number" id="nota2"><br>
+    <br>
+    <label for="">Nota 3:</label>
+    <input type="number" id="nota3"><br>
+    <br>
+    <center><input type="button" id="calcula" value="calcular" onclick="document.getElementById(boton(parseFloat(nota1.value),parseFloat(nota2.value),parseFloat(nota3.value),parseFloat(ident.value),nom.value))"></center>
+    <button id="añadir2">Cerrar</button>
+    
+</div>
+<center>
+<div>
+    <table border="1" id="tabla">
+    </table>
+</div>
+</center>
+<button id="añadir">Modal</button>
+    <script src="/main_notas2.js"></script>
+</body>
+</html>
